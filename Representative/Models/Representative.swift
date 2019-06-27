@@ -9,10 +9,10 @@
 import Foundation
 
 struct TopLevelJSON: Codable {
-    let results: [Results]
+    let results: [Representative]
 }
 
-struct Results: Codable {
+struct Representative: Codable {
     let name: String
     let party: String
     let state: String
